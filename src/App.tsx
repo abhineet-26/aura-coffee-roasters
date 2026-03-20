@@ -46,8 +46,7 @@ export default function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/product/:id" element={<ProductDetails />} />
-              {/* Fallback routes for demo */}
-              <Route path="*" element={<div className="min-h-[50vh] flex items-center justify-center text-2xl font-serif">Page Coming Soon</div>} />
+              
             </Routes>
           </main>
           <Footer />
