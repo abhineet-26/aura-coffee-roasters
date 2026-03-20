@@ -30,7 +30,7 @@ const ScrollToTop = () => {
 export default function App() {
   return (
     <CartProvider>
-      <Router basename="/aura-coffee-roasters">
+      <Router basename="/aura-coffee-roasters/src">
         <ScrollToTop />
         <div className="flex flex-col min-h-screen font-sans bg-primary text-secondary selection:bg-accent selection:text-white">
           <AnnouncementBar />
