@@ -28,9 +28,11 @@ const ScrollToTop = () => {
 };
 
 export default function App() {
+  const baseUrl = (import.meta as ImportMeta & { env?: { BASE_URL?: string } }).env?.BASE_URL ?? '/';
+
   return (
     <CartProvider>
-      <Router basename="/aura-coffee-roasters/src">
+      <Router basename={baseUrl}>
         <ScrollToTop />
         <div className="flex flex-col min-h-screen font-sans bg-primary text-secondary selection:bg-accent selection:text-white">
           <AnnouncementBar />
