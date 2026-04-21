@@ -1,56 +1,38 @@
-Aura Coffee Roasters – Premium Shopify-Style Storefront
-This repository contains a high-fidelity, custom-built e-commerce storefront designed as part of the Digital Heroes Shopify Development Challenge.
+# Aura Coffee Roasters – Premium Shopify-Style Storefront
 
-While developed in a custom React/Vite environment, the site is architected to replicate the premium UX/UI standards of top-tier Shopify stores, specifically drawing inspiration from industry leaders like Therabody, Dieselrcorp, and Liwa Coffee.
+This repository contains a high-fidelity storefront built for the **Digital Heroes Shopify Development Challenge**. It replicates the UX standards of top-tier Shopify brands like *Liwa Coffee* and *Therabody*.
 
-🎯 Project Objective
-To build a "ready-to-sell" digital storefront that demonstrates advanced proficiency in modern e-commerce design, responsive layouts, and customer journey optimization.
+## 🎯 Project Objective
+Build a "ready-to-sell" digital storefront demonstrating advanced proficiency in modern e-commerce design and optimized customer flows.
 
-💎 Design Rationale & Inspiration
-The store follows a Professional & Premium aesthetic, utilizing a "Cafe Noir" palette:
+---
 
-Color Palette: #FAF9F6 (Alabaster Cream) for the background, #1A1A1A (Charcoal) for depth, and #C48F56 (Caramel) for primary CTA accents.
+## 💎 Design Rationale
+The store uses a **Professional & Premium** "Cafe Noir" aesthetic.
 
-Typography: Playfair Display (Serif) for elegant headings to convey heritage and quality, paired with Inter (Sans-serif) for high-readability body text.
+* **Background:** Alabaster Cream (#FAF9F6) for a high-end gallery feel.
+* **Accents:** Caramel (#C48F56) for primary Call-to-Action buttons.
+* **Typography:** Playfair Display for headers; Inter for body text.
 
-References Met: Inspired by the clean grid layouts of Notiv and the artisanal storytelling of Liwa Coffee.
+---
 
-🚀 Key E-commerce Features
-Slide-out Cart Drawer: A modern AJAX-style cart experience that allows users to adjust quantities without leaving their current page.
+## 🚀 Key E-commerce Features
+* **Slide-out Cart:** Modern AJAX-style drawer for seamless shopping.
+* **Trust Signals:** Integrated badges for Free Shipping and Secure Checkout.
+* **Dynamic Grid:** "Quick Add" functionality with hover-state effects.
+* **Mobile-First:** Fully responsive layout optimized for thumb-navigation.
 
-Dynamic Product Grid: Features "Quick Add" functionality, hover effects, and clear "Compare-at" pricing to drive conversions.
+---
 
-Trust Architecture: Integrated "Trust Signals" (Free Shipping, Secure Checkout, and Easy Returns) positioned at high-intent areas of the page.
+## 🛠️ Technical Stack
+* **Framework:** React 19 (Vite)
+* **Styling:** Tailwind CSS 4
+* **Animations:** Framer Motion
+* **Deployment:** GitHub Pages
 
-Responsive Flow: Fully optimized for the "Mobile-First" shopper, ensuring the checkout flow is seamless on thumb-driven navigation.
+---
 
-Newsletter Capture: A strategically placed footer signup to facilitate long-term customer retention.
+## 🔐 Deployment Information
+* **Live Store:** https://abhineet-26.github.io/aura-coffee-roasters/
+* **Store Password:** Test@123
 
-🛠️ Technical Stack
-Framework: React 19 (Vite)
-
-Styling: Tailwind CSS 4 (Custom Theme)
-
-Animations: Framer Motion (for smooth section transitions and cart reveals)
-
-Icons: Lucide React
-
-Deployment: GitHub Pages
-
-📦 How to Run Locally
-Clone the repository:
-
-Bash
-git clone https://github.com/abhineet-26/aura-coffee-roasters.git
-Install dependencies:
-
-Bash
-npm install
-Start development server:
-
-Bash
-npm run dev
-🔐 Deployment Information
-Live Store Link: https://abhineet-26.github.io/aura-coffee-roasters/
-
-Store Password: Test@123
